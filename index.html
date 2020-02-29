@@ -14,6 +14,7 @@
   <meta name="author" content="">
   <!-- Page title -->
   <title>Drishti Parenting by Sanjay Chadawar</title>
+
   <!--[if lt IE 9]>
       <script src="js/respond.js"></script>
       <![endif]-->
@@ -22,6 +23,19 @@
   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"> </script> 
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="font.css">
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5d6c0bc0eb1a6b0be60a6d11/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
   <style media="" data-href="fonts/flaticons/flaticon.css">
     /*
   	Flaticon icon font: Flaticon
@@ -8317,7 +8331,28 @@ body * .ls-thumbnail a img,
       background-image: url("layerslider/skins/fullwidth/loading.gif");
     }
 
-
+    .blink {
+      animation: blinker 0.6s linear infinite;
+      color: #1c87c9;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: sans-serif;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .blink-one {
+      animation: blinker-one 1s linear infinite;
+      }
+      @keyframes blinker-one {  
+      0% { opacity: 0; }
+      }
+      .blink-two {
+      animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
 
     .ls-fullwidth .ls-fullscreen {
       width: 30px;
@@ -8404,7 +8439,8 @@ body * .ls-thumbnail a img,
         <div class="container">
           <ul class="nav navbar-nav page-scroll navbar-left">
             <li class="active"><a href="#page-top">Home</a></li>
-            <!-- <li class=""><a href="images/isp_1.jpg" target=”_blank”>Material List</a></li> -->
+            
+            <li class="blink blink-two"><a href="https://tawk.to/chat/5d6c0bc0eb1a6b0be60a6d11/default" target=”_blank”>Next Batch : 8th March 2020</a></li>
             <!-- <li class=""><a href="#services">Services</a></li>
                      <li class=""><a href="#about">About</a></li>
                      <li class=""><a href="#team">Team</a></li>
