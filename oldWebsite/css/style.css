@@ -237,7 +237,8 @@ html{
  .navbar-custom ul.nav ul.dropdown-menu li a {
      margin: 5px;
      line-height: 40px;
-     display:inline-block;
+     display:block;
+     border-radius: 25px;
 }
 /* Responsive navbar */
  .navbar-toggle:focus, .navbar-toggle:active{
@@ -267,6 +268,7 @@ html{
      position: absolute;
      width: 160px;
      transition: all .2s ease-in-out;
+     background-color: #fff !important;
 }
  .navbar-brand-centered img {
      max-height: 75px;
@@ -1334,7 +1336,7 @@ html{
     line-height: 2em;
 }
  footer img{
-    max-width: 130px;
+    /* max-width: 130px; */
 }
 /* Mailchimp message */
  #mce-error-response, #mce-success-response{
